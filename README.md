@@ -13,7 +13,7 @@ Done
 * access to docker runtime via http commands for restart
 
 Being worked on
-* docker image to sync
+* docker image to sync file with a github repository - automatically pull new versions and push current changes - useable for octoprint config and klipper config
 * automatically tag latest klipper image with ":latest"
 * automatically tag latest octoprint stable release with ":latest"
 * cleanup and publish dockerfile for octoprint
