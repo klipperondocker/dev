@@ -18,6 +18,8 @@ Being worked on
 * web editor for configuration file(s) - visual studio code running in a docker image
 
 To do list
+* container with only ser2net to be able to run the stack via a network connection to printer ( klipper image will use socat to connect to generate a printer serial port )
+* modify socat/ser2net to get over the 115200 bps limit or implement something else over the network
 * upgrade to traefik 2 and add middleware to secure all web interface with the same octoprint user/passwords
 * bash install script
 * dwc docker image as alternate to octoprint
