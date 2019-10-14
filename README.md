@@ -1,2 +1,24 @@
-# dev
-Development related issues, feature list, tracking, etc
+# Development Status
+
+Done
+* klipper multi-platform build
+* trigger klipper build on github master commit - one image per platform per commit
+* klipper exposes serial port over ser2net
+* octoprint multi-platform build
+* trigger klipper build on github master commit - one image per platform per release
+* octoprint uses socat to connect to serial port over network
+* basic installation instructions - https://github.com/klipperondocker/docs
+* basic dockerfile https://github.com/klipperondocker/stack/blob/master/standard.yml
+
+Being worked on
+* automatically tag latest klipper image with ":latest"
+* automatically tag latest octoprint stable release with ":latest"
+* cleanup and publish dockerfile for octoprint
+* cleanup and publish dockerfile for klipper
+* web editor for configuration file(s) - visual studio code running in a docker image
+
+To do list
+* upgrade to traefik 2 and add middleware to secure all web interface with the same octoprint user/passwords
+* bash install script
+* dwc docker image as alternate to octoprint
+
