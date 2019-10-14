@@ -1,6 +1,7 @@
 # Development Status
 
 Done
+* docker images on github - https://hub.docker.com/u/klipperondocker
 * klipper multi-platform build
 * trigger klipper build on github master commit - one image per platform per commit
 * klipper exposes serial port over ser2net
@@ -8,7 +9,7 @@ Done
 * trigger klipper build on github master commit - one image per platform per release
 * octoprint uses socat to connect to serial port over network
 * basic installation instructions - https://github.com/klipperondocker/docs
-* basic dockerfile https://github.com/klipperondocker/stack/blob/master/standard.yml
+* basic dockerfile - https://github.com/klipperondocker/stack/blob/master/standard.yml
 
 Being worked on
 * automatically tag latest klipper image with ":latest"
